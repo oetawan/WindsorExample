@@ -1,0 +1,14 @@
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.SqlRepository.dll.config
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.SqlRepository.dll
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.SqlRepository.pdb
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\EntityFramework.dll
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.Contract.dll
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Entity.dll
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.Contract.pdb
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Entity.pdb
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\EntityFramework.xml
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.csprojResolveAssemblyReference.cache
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.dll
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.pdb
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.Migrations.Intializer.resources
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.csproj.GenerateResource.Cache

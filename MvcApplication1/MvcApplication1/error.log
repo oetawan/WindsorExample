@@ -1,0 +1,3 @@
+DEBUG 8 MvcApplication1.Controllers.HomeController - MvcApplication1.Controllers.HomeController.Index()
+INFO 7 MvcApplication1.Interceptors.LogInterceptor - RestaurantRepository.AllRestaurants
+INFO 7 MvcApplication1.Interceptors.LogInterceptor - RestaurantRepository.AllRestaurants

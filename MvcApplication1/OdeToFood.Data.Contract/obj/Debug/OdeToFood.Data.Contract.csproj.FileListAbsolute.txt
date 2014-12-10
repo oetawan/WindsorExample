@@ -1,0 +1,7 @@
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.Contract\bin\Debug\OdeToFood.Data.Contract.dll
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.Contract\bin\Debug\OdeToFood.Data.Contract.pdb
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.Contract\bin\Debug\OdeToFood.Entity.dll
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.Contract\bin\Debug\OdeToFood.Entity.pdb
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.Contract\obj\Debug\OdeToFood.Data.Contract.csprojResolveAssemblyReference.cache
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.Contract\obj\Debug\OdeToFood.Data.Contract.dll
+C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.Contract\obj\Debug\OdeToFood.Data.Contract.pdb
