@@ -12,3 +12,17 @@ C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.S
 C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.pdb
 C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.Migrations.Intializer.resources
 C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.csproj.GenerateResource.Cache
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.SqlRepository.dll.config
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.SqlRepository.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.SqlRepository.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\EntityFramework.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.Contract.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Entity.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Data.Contract.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\OdeToFood.Entity.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\bin\Debug\EntityFramework.xml
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.csprojResolveAssemblyReference.cache
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.Migrations.Intializer.resources
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.csproj.GenerateResource.Cache
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Data.SqlRepository\obj\Debug\OdeToFood.Data.SqlRepository.pdb

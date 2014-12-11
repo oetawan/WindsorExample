@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Entity", "OdeToFo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Data.SqlRepository", "OdeToFood.Data.SqlRepository\OdeToFood.Data.SqlRepository.csproj", "{33CB4298-BB90-42B6-A9C6-8682CB6AD04E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Service.Contract", "OdeToFood.Service.Contract\OdeToFood.Service.Contract.csproj", "{940D63D5-4050-4E8A-8B9D-DE1F046CD69C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Service", "OdeToFood.Service\OdeToFood.Service.csproj", "{BAA9D09F-24E0-4733-801C-958001377D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Service.Host", "OdeToFood.Service.Host\OdeToFood.Service.Host.csproj", "{E21403FE-9096-4B27-BC2C-BD0DDF506692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Service.Client", "OdeToFood.Service.Client\OdeToFood.Service.Client.csproj", "{4A869C55-BFC9-4B24-AF3C-D62ECFD207B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +45,22 @@ Global
 		{33CB4298-BB90-42B6-A9C6-8682CB6AD04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33CB4298-BB90-42B6-A9C6-8682CB6AD04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33CB4298-BB90-42B6-A9C6-8682CB6AD04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940D63D5-4050-4E8A-8B9D-DE1F046CD69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940D63D5-4050-4E8A-8B9D-DE1F046CD69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940D63D5-4050-4E8A-8B9D-DE1F046CD69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940D63D5-4050-4E8A-8B9D-DE1F046CD69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA9D09F-24E0-4733-801C-958001377D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA9D09F-24E0-4733-801C-958001377D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA9D09F-24E0-4733-801C-958001377D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA9D09F-24E0-4733-801C-958001377D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21403FE-9096-4B27-BC2C-BD0DDF506692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21403FE-9096-4B27-BC2C-BD0DDF506692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21403FE-9096-4B27-BC2C-BD0DDF506692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21403FE-9096-4B27-BC2C-BD0DDF506692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A869C55-BFC9-4B24-AF3C-D62ECFD207B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A869C55-BFC9-4B24-AF3C-D62ECFD207B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A869C55-BFC9-4B24-AF3C-D62ECFD207B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A869C55-BFC9-4B24-AF3C-D62ECFD207B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -25,8 +25,7 @@ namespace MvcApplication1
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
-            IWindsorContainer windsorContainer = WindsorConfig.BootstrapContainer();
-            ServiceLocatorConfig.Configure(windsorContainer);
+            WindsorConfig.BootstrapContainer();
         }
 
         protected void Application_End()

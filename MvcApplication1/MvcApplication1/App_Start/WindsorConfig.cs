@@ -1,5 +1,7 @@
 ﻿using Castle.Windsor;
 using Castle.Windsor.Installer;
+using Microsoft.Practices.ServiceLocation;
+using Microsoft.Practices.Windsor.ServiceLocatorAdapter;
 using MvcApplication1.Plumbing;
 using System;
 using System.Collections.Generic;
@@ -12,15 +14,16 @@ namespace MvcApplication1
     {
         private static IWindsorContainer container;
 
-        public static IWindsorContainer BootstrapContainer()
+        public static void BootstrapContainer()
         {
             container = new WindsorContainer()
                 .Install(FromAssembly.This());
+
+            WindsorServiceLocator windsorServiceLocator = new WindsorServiceLocator(container);
+            ServiceLocator.SetLocatorProvider(() => windsorServiceLocator);
             
             var controllerFactory = new WindsorControllerFactory(container.Kernel);
             System.Web.Mvc.ControllerBuilder.Current.SetControllerFactory(controllerFactory);
-
-            return container;
         }
 
         public static void DisposeContainer()

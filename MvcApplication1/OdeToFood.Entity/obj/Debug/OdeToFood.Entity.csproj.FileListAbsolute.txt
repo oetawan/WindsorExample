@@ -2,3 +2,7 @@ C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Entity
 C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Entity\bin\Debug\OdeToFood.Entity.pdb
 C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Entity\obj\Debug\OdeToFood.Entity.dll
 C:\Users\oetawan_c\Documents\Visual Studio 2013\MvcApplication1\OdeToFood.Entity\obj\Debug\OdeToFood.Entity.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Entity\bin\Debug\OdeToFood.Entity.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Entity\bin\Debug\OdeToFood.Entity.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Entity\obj\Debug\OdeToFood.Entity.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Entity\obj\Debug\OdeToFood.Entity.pdb

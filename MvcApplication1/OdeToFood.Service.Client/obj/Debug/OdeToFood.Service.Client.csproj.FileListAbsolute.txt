@@ -1,0 +1,9 @@
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service.Client\bin\Debug\OdeToFood.Service.Client.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service.Client\bin\Debug\OdeToFood.Service.Client.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service.Client\bin\Debug\OdeToFood.Entity.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service.Client\bin\Debug\OdeToFood.Service.Contract.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service.Client\bin\Debug\OdeToFood.Entity.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service.Client\bin\Debug\OdeToFood.Service.Contract.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service.Client\obj\Debug\OdeToFood.Service.Client.csprojResolveAssemblyReference.cache
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service.Client\obj\Debug\OdeToFood.Service.Client.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service.Client\obj\Debug\OdeToFood.Service.Client.pdb

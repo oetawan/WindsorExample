@@ -68,6 +68,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -208,7 +209,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="App_Start\ServiceLocatorConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\WindsorConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -220,67 +220,67 @@
     </Compile>
     <Compile Include="Installers\ControllersInstaller.cs" />
     <Compile Include="Installers\LoggerInstaller.cs" />
-    <Compile Include="Installers\RepositoriesInstaller.cs" />
+    <Compile Include="Installers\ServiceInstaller.cs" />
     <Compile Include="Interceptors\LogInterceptor.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Plumbing\WindsorControllerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
-    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
-    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="Content\themes\base\jquery-ui.css" />
-    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
-    <Content Include="Content\themes\base\jquery.ui.all.css" />
-    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
-    <Content Include="Content\themes\base\jquery.ui.base.css" />
-    <Content Include="Content\themes\base\jquery.ui.button.css" />
-    <Content Include="Content\themes\base\jquery.ui.core.css" />
-    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
-    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
-    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
-    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
-    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
-    <Content Include="Content\themes\base\jquery.ui.slider.css" />
-    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
-    <Content Include="Content\themes\base\jquery.ui.theme.css" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Images\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Images\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Images\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Images\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Images\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Images\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Images\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Images\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Images\Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Images\Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Images\Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Images\Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Images\Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Images\Content\themes\base\jquery-ui.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Images\Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Images\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Images\Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Images\Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="log4net.config" />
@@ -300,14 +300,16 @@
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Views\Default\Report.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Content\Site.css" />
+    <Content Include="Images\Content\Site.css" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
@@ -348,17 +350,17 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OdeToFood.Data.Contract\OdeToFood.Data.Contract.csproj">
-      <Project>{89f1bd6d-2431-4cb8-8db7-d3f26b3d3f58}</Project>
-      <Name>OdeToFood.Data.Contract</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OdeToFood.Data.SqlRepository\OdeToFood.Data.SqlRepository.csproj">
-      <Project>{33cb4298-bb90-42b6-a9c6-8682cb6ad04e}</Project>
-      <Name>OdeToFood.Data.SqlRepository</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OdeToFood.Entity\OdeToFood.Entity.csproj">
       <Project>{f28647d7-c9ec-4005-b022-0c29cae727ec}</Project>
       <Name>OdeToFood.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OdeToFood.Service.Client\OdeToFood.Service.Client.csproj">
+      <Project>{4a869c55-bfc9-4b24-af3c-d62ecfd207b6}</Project>
+      <Name>OdeToFood.Service.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OdeToFood.Service.Contract\OdeToFood.Service.Contract.csproj">
+      <Project>{940d63d5-4050-4e8a-8b9d-de1f046cd69c}</Project>
+      <Name>OdeToFood.Service.Contract</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

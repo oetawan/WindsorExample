@@ -4,13 +4,16 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MvcApplication1.Models;
-using OdeToFood.Data.Contract;
 using Microsoft.Practices.ServiceLocation;
+using OdeToFood.Service.Contract;
+using OdeToFood.Service.Client;
 
 namespace MvcApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        public IRestaurantService RestaurantService { get; set; }
+
         public HomeController()
         {
             
@@ -18,9 +21,8 @@ namespace MvcApplication1.Controllers
 
         public ActionResult Index()
         {
-            IRestaurantRepository restoRepo = ServiceLocator.Current.GetInstance<IRestaurantRepository>();
-            var restaurants = restoRepo.AllRestaurants();
-            return View(restaurants);
+            var restaurants = RestaurantService.FindAllRestaurants();
+            return View(restaurants.AsEnumerable());
         }
 
         public ActionResult About()

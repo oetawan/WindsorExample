@@ -1,0 +1,14 @@
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\OdeToFood.Service.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\OdeToFood.Service.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\OdeToFood.Data.Contract.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\OdeToFood.Entity.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\OdeToFood.Service.Contract.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\OdeToFood.Data.Contract.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\OdeToFood.Entity.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\OdeToFood.Service.Contract.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\obj\Debug\OdeToFood.Service.csprojResolveAssemblyReference.cache
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\obj\Debug\OdeToFood.Service.dll
+D:\Tutorial\Projects\WindsorExample\MvcApplication1\OdeToFood.Service\obj\Debug\OdeToFood.Service.pdb
